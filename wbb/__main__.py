@@ -69,7 +69,7 @@ async def start_bot():
             bot_modules += "|{:<15}".format(i)
         j += 1
     print("+===============================================================+")
-    print("|                              WBB                              |")
+    print("|                             Yozora Mel                             |")
     print("+===============+===============+===============+===============+")
     print(bot_modules)
     print("+===============+===============+===============+===============+")
@@ -110,17 +110,16 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 text="Commands ❓", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="updates🛠",
+                url="https://t.me/SENKUBOTS",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 🖥",
-                callback_data="stats_callback",
+                text="DEVLOPER", url="t.me/harshahero"
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="Support 👨", url="http://t.me/SENKUCHAT"
             ),
         ],
         [
@@ -147,16 +146,15 @@ keyboard = InlineKeyboardMarkup(
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="updates 🛠",
+                url="t.me/SENKUBOTS ",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 💻",
-                callback_data="stats_callback",
+                text="DEVLOPER 💻", url="t.me/harshahero
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="Support 👨", url="t.me/SENKUCHAT"),
         ],
     ]
 )

@@ -45,9 +45,9 @@ async def repo(_, message):
         )
         count += 1
 
-    text = f"""[Github](https://github.com/thehamkercat/WilliamButcherBot) | [Group](t.me/PatheticProgrammers)
+    text = f"""[baka](@NO1BAKA) | [Group](t.me/SENKUCHAT)
 ```----------------
-| Contributors |
+| BAKAS |
 ----------------```
 {list_of_users}"""
     await app.send_message(

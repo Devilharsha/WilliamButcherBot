@@ -147,12 +147,12 @@ keyboard = InlineKeyboardMarkup(
             ),
             InlineKeyboardButton(
                 text="updates 🛠",
-                url="t.me/SENKUBOTS ",
+                url="t.me/SENKUBOTS",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="DEVLOPER 💻", url="t.me/harshahero
+                text="DEVLOPER 💻", url="t.me/harshahero",
             ),
             InlineKeyboardButton(text="Support 👨", url="t.me/SENKUCHAT"),
         ],
